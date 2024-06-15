@@ -145,9 +145,9 @@ By configuring SSH to use public key authentication, you enhance the security of
     cd automation
     ```
 
-2. Run the `setup.sh` script with your domain name as an argument:
+2. Run the `setup.sh` script:
     ```bash
-    sudo bash setup.sh example.com
+    sudo bash setup.sh
     ```
 
     The script may require execution permissions, which can be granted with:
@@ -156,9 +156,7 @@ By configuring SSH to use public key authentication, you enhance the security of
     ```
 
 ## Contribution
-
 Bug reports, feature requests, and pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. To contribute, fork the repository and create a pull request.
 
-
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [/LICENSE](LICENSE) file for details.
