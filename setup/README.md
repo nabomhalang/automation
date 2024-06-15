@@ -67,6 +67,23 @@
 - `openssh-server` (버전 최신)
 - `ca-certificates` (버전 최신)
 
+## Zsh 테마 및 플러그인
+
+`setup.sh` 스크립트는 Zsh를 위한 `Oh My Zsh`와 몇 가지 플러그인 및 테마를 설치합니다:
+
+### Oh My Zsh
+
+`Oh My Zsh`는 Zsh 설정을 쉽게 관리할 수 있는 프레임워크입니다. 스크립트는 `Oh My Zsh`를 `/usr/share/oh-my-zsh` 디렉터리에 설치합니다.
+
+### Powerlevel10k 테마
+
+`Powerlevel10k`는 빠르고 유연한 Zsh 테마입니다. 스크립트는 이 테마를 `/usr/share/oh-my-zsh/custom/themes/powerlevel10k` 디렉터리에 설치합니다.
+
+### 플러그인
+
+- `zsh-syntax-highlighting`: 명령어를 입력할 때 구문을 강조하여 잘못된 명령어를 쉽게 식별할 수 있게 합니다.
+- `zsh-autosuggestions`: 이전에 입력한 명령어를 기반으로 자동 완성을 제안합니다.
+
 ## 사용법
 
 1. 리포지토리를 클론합니다:
