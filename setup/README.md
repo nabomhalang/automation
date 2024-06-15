@@ -11,7 +11,6 @@ The `setup.sh` script performs the following tasks:
 3. **Installs and Configures Docker**: Sets up Docker with necessary dependencies and configurations.
 4. **Installs Python and Node.js Environments**: Sets up Python with `pyenv` and Node.js with `nvm`.
 5. **Configures SSH Server**: Installs and configures SSH server for secure access.
-6. **Configures Let's Encrypt for SSL**: Sets up SSL certificates using Let's Encrypt and configures automatic renewal.
 
 ## Installed Packages
 
@@ -159,4 +158,4 @@ By configuring SSH to use public key authentication, you enhance the security of
 Bug reports, feature requests, and pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. To contribute, fork the repository and create a pull request.
 
 ## License
-This project is licensed under the MIT License - see the [/LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
