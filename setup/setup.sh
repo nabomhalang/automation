@@ -51,6 +51,10 @@ common_packages=(
     curl
     wget
     build-essential
+    nginx
+    certbot
+    expect
+    cron
 )
 
 # Python 빌드 의존성 배열
