@@ -137,24 +137,6 @@ To use SSH with public key authentication, you need to generate an SSH key pair 
 
 By configuring SSH to use public key authentication, you enhance the security of your server by requiring a cryptographic key for login instead of a password.
 
-## SSL Configuration with Let's Encrypt
-
-The `setup.sh` script sets up SSL certificates using Let's Encrypt. The script performs the following tasks:
-
-1. **Installs Let's Encrypt**: Uses `apt-get` to install the Let's Encrypt client (`certbot`).
-2. **Generates SSL Certificates**: Uses `certbot` to generate SSL certificates for the provided domain.
-3. **Configures Nginx for SSL**: Sets up Nginx configuration to use the generated SSL certificates.
-
-### SSL Certificate Renewal
-
-The script also sets up a cron job to automatically renew the SSL certificates. The cron job runs the following command:
-
-```bash
-/usr/bin/letsencryptrenew
-```
-
-The cron job is configured to run every Sunday at 4:30 AM. The renewal script uses certbot to renew the certificates and restarts Nginx to apply the new certificates.
-
 ## Usage
 
 1. Clone the repository:
