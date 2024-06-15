@@ -141,7 +141,7 @@ By configuring SSH to use public key authentication, you enhance the security of
 1. Clone the repository:
     ```bash
     git clone https://github.com/nabomhalang/automation.git
-    cd automation
+    cd automation/setup
     ```
 
 2. Run the `setup.sh` script:
