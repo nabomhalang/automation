@@ -21,7 +21,7 @@ Before running the script, ensure that your system meets the following requireme
 
 ## Installed Packages
 
-The `setup.sh` script checks for and installs the following packages if they are not already installed:
+The `nginx.sh` script checks for and installs the following packages if they are not already installed:
 
 - `nginx` (latest)
 - `certbot` (latest)
