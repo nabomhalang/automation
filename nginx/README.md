@@ -158,7 +158,5 @@ You can review this log file to troubleshoot any issues that arise during the se
 Bug reports, feature requests, and pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. To contribute, fork the repository and create a pull request.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-
-
+This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
