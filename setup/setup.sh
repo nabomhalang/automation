@@ -188,6 +188,8 @@ fi
 # /etc/zshrc 파일 설정
 log_and_show "Configuring /etc/zshrc..."
 sudo bash -c 'cat << EOF > /etc/zshrc
+export PATH=/usr/local/bin:$PATH
+
 # Oh My Zsh 설치 디렉터리
 export ZSH="/usr/share/oh-my-zsh"
 
